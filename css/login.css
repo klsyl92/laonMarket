@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 's-core_dream1_thin';
+    src: url('scdream1.woff2') format('woff2'),
+        url('scdream1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core_dream3_light';
+    src: url('scdream3.woff2') format('woff2'),
+        url('scdream3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core_dream4_regular';
+    src: url('scdream4.woff2') format('woff2'),
+        url('scdream4.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core_dream5_medium';
+    src: url('scdream5.woff2') format('woff2'),
+        url('scdream5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+body {
+    font-family: 's-core_dream5_medium', "맑은 고딕";
+}
+
+#login {
+    width: 750px;
+    margin: auto;
+}
+
+#login h2 {
+    border-bottom: 2px solid #45734F;
+    padding: 62px 0 35px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 70px;
+}
+
+#login.loginFrm {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+}
+
+#login .loginFrm form {
+    width: 400px;
+    margin: auto;
+}
+
+#login .loginFrm form input,
+#login .loginFrm form button {
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #45734F;
+    font-family: 's-core_dream3_light', sans-serif;
+}
+
+#login .loginFrm form input[type="text"],
+#login .loginFrm form input[type="password"] {
+    padding: 12px 19px;
+}
+
+#login .loginFrm form input[type="password"] {
+    margin: 33px 0;
+}
+
+#login .loginFrm form input::placeholder {
+    color: #ccc;
+    font-family: 's-core_dream5_medium', sans-serif;
+}
+
+#login .loginFrm form input[type="checkbox"] {
+    width: 20px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+#login .loginFrm form label {
+    color: #45734F;
+    font-size: 15px;
+}
+
+#login .loginFrm form .btns1 {
+    float: right;
+    margin-bottom: 83px;
+}
+
+#login .loginFrm form .btns1 button[type="button"],
+#login .loginFrm form .btns1 button[type="button"]:last-child {
+    width: 98px;
+    height: 30px;
+    float: left;
+    margin-left: 6px;
+    border: 0;
+    background-color: #5BAB6D;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -2px;
+    font-family: 's-core_dream5_medium', sans-serif;
+}
+
+#login .loginFrm form .btns2 {
+    overflow: auto;
+    margin-bottom: 43px;
+    width: 100%;
+}
+
+#login .loginFrm form .btns2 button[type="submit"] {
+    border: 1px solid #45734F;
+    background-color: #fff;
+    color: #45734F;
+    font-size: 19px;
+    font-family: 's-core_dream5_medium', sans-serif;
+}
+
+#login .loginFrm form .btns2 button[type="button"] {
+    border: 0;
+    background-color: #45734F;
+    color: #fff;
+    font-size: 19px;
+    margin-top: 25px;
+    font-family: 's-core_dream5_medium', sans-serif;
+}
+
+#login .loginFrm form .btns3 {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+#login .loginFrm form .btns3 a {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #45734F;
+    letter-spacing: -2px;
+}
+
+section .loginFrm form .btns3 span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #45734F;
+}
+
+/* footer */
+footer{
+    clear: both; 
+    border-top: 2px solid #45734F;
+    padding-left: 200px; margin-top: 50px;}
+footer>h4 {float: left; width: 200px; margin-top: 50px;}
+footer>p {
+    margin:50px 30px; 
+    display: inline-block; line-height: 2em;
+    text-align: left;
+}

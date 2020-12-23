@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>라온마켓 고객센터</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/service.js"></script>
+    <link rel="stylesheet" href="css/service.css">    
+</head>
+<body>  
+    <div class="wrap">
+        <div class="tophold">
+              <ul>
+                   <li><a href="login.html">로그인</a></li>
+                   <li><a href="join.html">회원가입</a></li>
+                   <li><a href="service.html">고객센터</a></li>
+                   <li><a href="login.html">my라온</a></li>
+                   <li><a href="cart2.html"><img src="img/icon_cart.svg" alt="장바구니"></a></li>
+              </ul>
+        </div>            
+        <div class="A"> 
+                <header>
+                <h1>
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="로고">
+                    </a>
+                </h1>
+                <div id="sb">
+                <form action="#">
+                    <label><input type="text" name="search" id="search"></label>
+                    <button value="search"><img src="img/icon_search.svg" alt="검색"></button>
+                </form>
+                </div>                
+            </header>
+        </div>    
+        <div class="B">
+            <section class="menu">
+               <h2 class="hide">메뉴영역</h2>
+                <ul id="cat">
+                    <li>
+                       <a href="#"><img src="img/menu.svg" alt="메뉴">
+                       <span>카테고리</span></a>                        
+                    </li>
+                    <li><a href="new.html">신상품</a></li>
+                    <li><a href="best.html">베스트</a></li>
+                    <li><a href="sale.html">세일</a></li>
+                    <li><a href="event.html">이벤트</a></li>
+                </ul>
+                <ul class="list">
+                            <li><a href="farm.html">
+                                <img src="img/icon_1.svg" alt="아이콘">
+                                <p>농산물(채소,과일,견과류)</p>
+                            </a></li>
+                            <li><a href="marine.html">
+                                <img src="img/icon_2.svg" alt="아이콘">
+                                <p>수산물(어패류,생선)</p>
+                            </a></li>
+                            <li><a href="stock-raising.html">
+                                <img src="img/icon_3.svg" alt="아이콘">
+                                <p>축산물(돼지고기,닭고기)</p>
+                            </a></li>
+                            <li><a href="healthy.html">
+                                <img src="img/icon_4.svg" alt="아이콘">
+                                <p>건강식품(건강보조,유기농)</p>
+                            </a></li>
+                            <li><a href="general.html">
+                                <img src="img/icon_5.svg" alt="아이콘">
+                                <p>일반식품(빵,과자,가공식품)</p>
+                            </a></li>
+                        </ul>
+            </section>
+        </div>
+        <div class="C">
+            <section class="SC">
+                    <h2>고 객 센 터</h2>
+                    <article class="top10">
+                       <h3>자주하는 질문 TOP10 </h3> 
+                       <ul>
+                           <li id="T1">
+                               <span>1</span>
+                               <p>회원 정보 수정은<br>어떻게 하나요?</p>
+                           </li>
+                           <li id="T2">
+                               <span>2</span>
+                               <p>주문상품 배송확인은<br>어디서 하나요?</p>
+                           </li>
+                           <li id="T3">
+                               <span>3</span>
+                               <p>교환/반품신청은<br>어떻게 하나요?</p>
+                           </li>
+                           <li id="T4">
+                               <span>4</span>
+                               <p>교환/반품 신청 기준 및<br>주의사항이 있나요?</p>
+                           </li>
+                           <li id="T5">
+                               <span>5</span>
+                               <p>교환/반품 처리기간은<br>얼마나 걸리나요?</p>
+                           </li>
+                           <li id="T6">
+                               <span>6</span>
+                               <p>내가 주문한 내역은<br>어떻게 확인하나요?</p>
+                           </li>
+                           <li id="T7">
+                               <span>7</span>
+                               <p>결제 창에서 다음으로<br>넘어가지 않아요</p>
+                           </li>
+                           <li id="T8">
+                               <span>8</span>
+                               <p>주문취소는<br>어떻게 하나요?</p>
+                           </li>
+                           <li id="T9">
+                               <span>9</span>
+                               <p>주문 후 주문 정보를<br>변경하고 싶어요</p>
+                           </li>
+                           <li id="T10">
+                               <span>10</span>
+                               <p>오프라인 픽업 서비스는<br>어떻게 이용하나요?</p>
+                           </li>                           
+                       </ul>                       
+                    </article>
+                        <ul class="smenu">
+                            <li class="on" id="FQ"><span>자주하는 질문</span></li>
+                            <li><span>1:1 문의</span></li>
+                            <li><span>고객의 소리</span></li>
+                            <li><span>반품/환불 신청</span></li>
+                            <li><span>배송 안내</span></li>
+                            <li>
+                                <strong>고객센터</strong><br>
+                                <strong>1567-1234</strong>
+                            </li>
+                        </ul>
+                    <article class="FAQ">
+                        <ul>
+                            <li class="Q" id="Q1">
+                                <p>Q. 배송완료라고 되어있는데 상품이 도착하지 않았어요.</p>
+                                <span><img src="img/down.svg" alt="펼치기"></span>
+                            </li>    
+                            <li class="QA" id="A1">
+                                만약 '배송완료'로 확인되나 상품을 받지 못했다면 다음을 먼저 확인해 주십시오.<br><br>&nbsp;&nbsp;&nbsp;1) 배송완료 문자 혹은 [my라온 > 주문목록] > [배송조회]에서 사진 확인<br>&nbsp;&nbsp;&nbsp;2) 대리 수령 가능 장소(경비실, 이웃, 주변 편의점 등) 확인<br><br>
+                                만약 장기적으로 상품을 배송받지 못하셨다면 홈페이지 내 '1:1 문의'에 글을 남겨주시거나, 고객상담 센터로 전화 주시면<br> 빠른 확인 후 안내드리겠습니다.
+                            </li>
+                            <li class="Q" id="Q2">
+                                <p>Q. 상품을 한번에 여러개를 주문했는데 일부가 오지 않았습니다.</p>
+                                <span><img src="img/down.svg" alt="펼치기"></span>
+                            </li>
+                            <li class="QA" id="A2">
+                                상품이 누락되었다면 교환을 통해 상품을 다시 받거나, 반품하고 환불받을 수 있습니다.<br><br>
+              &nbsp;&nbsp;&nbsp;■ 배송 상품 다시 받기<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 누락된 상품에 대해서만 부분배송이 불가하여, 상품 전체 교환<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. [my라온 > 주문목록] 에서 [교환신청] 선택<br><br>
+             &nbsp;&nbsp;&nbsp;■ 배송 상품 반품하기<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 부분반품이 불가하여, 전체 상품을 반품하고 환불 가능<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. [my라온 > 주문목록] 에서 [반품신청] 선택
+                            </li>
+                            <li class="Q" id="Q3">
+                                <p>Q. 해외에서도 배송받을 수 있나요?</p>
+                                <span><img src="img/down.svg" alt="펼치기"></span>
+                            </li>
+                            <li class="QA" id="A3">
+                                현재 해외 주소지로의 해외배송 서비스는 지원하지 않습니다.<br><br>
+                                국내 배송지로의 상품 배송만 가능합니다.
+                            </li>
+                            <li class="Q" id="Q4">
+                                <p>Q. 주문한 적 없는데 배송알림문자를 받았습니다.</p>
+                                <span><img src="img/down.svg" alt="펼치기"></span>
+                            </li>
+                            <li class="QA" id="A4">
+                                상품을 주문하신 고객님이 핸드폰 번호를 잘못 입력하신 경우, 주문하지 않은 고객님께 문자메세지가 가는 경우가 있습니다.<br><br>
+                                이 경우 고객센터(1567-1234)로 문의하시면 신속히 처리해 드리도록 하겠습니다.
+                            </li>
+                            <li class="Q" id="Q5">
+                                <p>Q. 새벽배송이 제한되는 지역도 있나요?</p>
+                                <span><img src="img/down.svg" alt="펼치기"></span>
+                            </li>
+                            <li class="QA" id="A5">
+                                구매 상품과 주문 시 선택한 주소지에 따라 새벽배송 가능여부가 달라 질 수 있습니다.<br>
+                                기본배송지가 새벽배송가능 지역으로 설정 되어 있는 지 확인 부탁 드립니다.<br><br>
+            &nbsp;&nbsp;&nbsp;■ 새벽배송 가능 지역 확인하기<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[my라온 > 배송지 관리 > '새벽배송 가능 지역' 확인]<br><br>
+                                앞으로 새벽배송 서비스 범위를 점차 넓혀감으로써, 더 많은 고객님이 이용하실 수 있도록 준비중이니 양해 부탁드립니다.
+                            </li>
+                            <li class="Q" id="Q6">
+                                <p>Q. 현금 영수증을 신청하지 못했는데, 어떻게 해야되나요?</p>
+                                <span><img src="img/down.svg" alt="펼치기"></span>
+                            </li>
+                            <li class="QA" id="A6">
+                                쿠팡은 국세청이 지정한 코드(010-000-1234)로 고객님들의 현금영수증을 자진 발급해 드리고 있습니다.<br><br>
+                                현금영수증 자진발급 건에 대해 현금영수증 신청을 원하실 경우,<br>
+                                결제일 다음날부터 국세청 홈페이지(www.taxsave.go.kr)를 통해 직접 현금영수증을 발행 받으실 수 있습니다.
+                            </li>
+                        </ul>
+                    </article>
+                    <article id="NR">
+                        <h3>" 준 비 중 입 니 다 "</h3>
+                    </article>
+                    <article class="page">
+                        <button id="prev"><img src="img/icon_prev.svg" alt="이전"></button>
+                        <span class="now">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <button id="next"><img src="img/icon_next.svg" alt="다음"></button>
+                    </article>
+                    <div class="pop">
+                        <div class="popA" id="TA1">
+                            <strong>1. 회원 정보 수정은 어떻게 하나요?</strong>
+                            <p>회원정보 수정 방법은 다음과 같습니다.<br><br>
+                            [ 로그인 -> my라온 -> 개인정보 수정 ]<br><br>
+                            ※ 개인정보보호를 위해 회원정보 수정시 본인인증이 꼭 필요합니다. ※
+                            </p>
+                            <a href="#">회원정보 수정 바로가기></a>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA2">
+                            <strong>2. 주문상품 배송확인은 어디서 하나요?</strong>
+                            <p>회원정보 수정 방법은 다음과 같습니다.<br><br>
+                            [ 로그인 -> my라온 -> 주문/배송 조회 -> 배송조회 ]</p>
+                            <a href="#">주문/배송 조회 바로가기></a>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA3">
+                            <strong>3. 교환/반품신청은 어떻게 하나요?</strong>
+                            <p>교환/반품 신청은 배송완료 기준으로 7일 이내 신청이 가능합니다.<br><br>
+                            [ 로그인 -> my라온 -> 주문/배송 조회 -> 배송완료 -> 교환/반품신청 ]</p>
+                            <a href="#">교환/반품 신청 바로가기></a>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA4">
+                            <strong>4. 교환/반품 신청 기준 및 주의사항이 있나요?</strong>
+                            <p>'전자상거래 등에서의 소비자 보호에 관한 법률 제 17조'에 의거하여 배송 완료후 7일 이내 교환/반품이 가능합니다.<br><br>상품에 따라 [ 취소/교환/반품 ] 의 기준이 다를 수 있으며, 자세한 사항은 상품 상세설명에서 기재하고 있습니다.<br><br>※ 고객단순변심 반품일경우, 왕복택배비가 부과될수 있습니다 ※</p>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA5">
+                            <strong>5. 교환/반품 처리기간은 얼마나 걸리나요?</strong>
+                            <p>교환 및 반품의 처리 기간은 상품에 따라 다를 수 있으며,<br>재고 여부 및 택배사 사정에 의해 처리 및 배송이 지연될 수 있습니다.<br><br>
+                            1. 신용/체크카드: 영업일 기준 3~7일 이내 카드사 승인취소<br><br>
+                            2. 휴대폰결제 : 영업일 2일 내 한도복구<br>
+                            ※ 계좌 미등록시 '마일리지'로 환불되며 결제금액은 휴대폰 요금에 청구<br><br>
+                            3. 무통장입금 : 등록된 환불계좌 영업일 1~2일 이내 환불<br>
+                            ※ 본인이 예금주인 계좌만 등록 가능, 미등록시 '마일리지'로 환불</p>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA6">
+                            <strong>6. 내가 주문한 내역은 어떻게 확인하나요?</strong>
+                            <p>주문 내역은 [마이쿠팡 > 주문목록]에서확인 가능합니다.<br><br>
+                            주문 내역이 확인되지 않는다면, 가족 또는 지인의 아이디로 주문하신 것은 아닌지 확인 부탁드립니다.<br><br>
+                            그럼에도 주문내역이 확인이 되지 않거나 [주문내역 삭제] 하신 경우,<br>
+                            [ 고객센터 1567-1234 ] 로 문의 주시기 바랍니다.</p>
+                            <a href="#">주문/배송 조회 바로가기></a>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA7">
+                            <strong>7. 결제 창에서 다음으로 넘어가지 않아요</strong>
+                            <p>인터넷 익스플러 9,10에서 ActiveX 사용 선택 시<br>
+                            KCP 통합 결제창에서는 ActiveX 등이 설치되지 않는 문제로 결제 진행이 안될 수 있습니다.<br><br>
+                            1. 인터넷 익스플러창 상단 도구 메뉴에서 "ActiveX 필터링"을 선택<br><br>
+                            2. 다른 방법으로는 주소 입력창의 아이콘을 클릭하여 "ActiveX 필터링 안함" 버튼을 클릭하시면 됩니다.</p>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA8">
+                            <strong>8. 주문취소는 어떻게 하나요?</strong>
+                            <p>주문하신 상품은 "my라온"에서 쉽고 빠르게 취소 및 반품을 신청할 수 있습니다.<br><br>
+                            배송중인 상품은 반품으로 접수되어 반품비용이 발생 할 수 있습니다.<br><br>
+                            [ 로그인 -> my라온 -> 주문/배송 조회 ]</p>
+                            <a href="#">주문/배송 조회 바로가기></a>
+                            <button class="X">닫기</button>
+                        </div>
+                        <div class="popA" id="TA9">
+                            <strong>9. 주문 후 주문 정보를 변경하고 싶어요</strong>
+                            <p>주문완료 이후에는 주문한 상품의 옵션을 변경할 수 없습니다.<br>
+                            변경을 원하신다면 주문취소 후 다시 주문하여 주시기 바랍니다.</p>
+                            <a href="#">주문/배송 조회 바로가기></a>
+                            <button class="X">닫기</button>
+                        </div><div class="popA" id="TA10">
+                            <strong>10. 오프라인 픽업 서비스는 어떻게 이용하나요?</strong>
+                            <p>온라인에서 주문하고 오프라인 매장에서 직접 픽업하는 서비스입니다.<br>
+                            주문일 포함 4일이내 픽업 날짜와 장소를 선택 하실 수 있습니다.<br><br>
+                            ※ 상품 선택후, 장바구니 화면에서 "매장 픽업"을 체크 후 주문</p>
+                            <button class="X">닫기</button>
+                        </div>
+                    </div> 
+            </section>
+        </div>
+        <footer>
+            <h4><img src="img/logo_gray.png" alt="로고"></h4>
+            <p>(주)라온
+            <br>대표자: 김욜로 | 주소: 서울특별시 관악구 신림로 1234(신림동)
+            <br>사업자등록번호: 123-81-01234
+            <br>통신판매업신고 : 제2019-서울강남-1234호  |  건강기능식품신고 : 제2019-02156호  
+            </p>
+        </footer>
+        <div class="float">
+            <p><a href="cart2.html">
+                 <img src="img/icon_cart_float.svg" alt="장바구니">
+                 <span>장바구니</span>
+               </a>                
+           </p>
+            <button><img src="img/up.svg" alt="up"></button>
+            <div class="space">
+                <p>0건</p>
+            </div>
+            <button><img src="img/down.svg" alt="down"></button>
+            <button class="TB"><img src="img/top.svg" alt="top"></button>
+            <button class="TB"><img src="img/bottom.svg" alt="bottom"></button>
+        </div>
+    </div>
+</body>
+</html>

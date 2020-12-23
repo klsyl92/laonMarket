@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 's-core_dream1_thin';
+    src: url('scdream1.woff2') format('woff2'),
+        url('scdream1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core_dream3_light';
+    src: url('scdream3.woff2') format('woff2'),
+        url('scdream3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core_dream4_regular';
+    src: url('scdream4.woff2') format('woff2'),
+        url('scdream4.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core_dream5_medium';
+    src: url('scdream5.woff2') format('woff2'),
+        url('scdream5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+body {
+    font-family: 's-core_dream5_medium', "맑은 고딕";
+}
+
+#join {
+    width: 1200px;
+    margin: auto;
+}
+
+#join h2 {
+    border-bottom: 2px solid #45734F;
+    padding: 62px 0 35px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+
+#join .joinFrm {
+    width: 1048px;
+    height: 1300px;
+    margin: auto;
+    /*border: 1px solid red;*/
+}
+
+#join .joinFrm form {
+    width: 1048px;
+    margin: auto;
+}
+
+#join .joinFrm form label {
+    display: block;
+    width: 870px;
+    float: left;
+    margin-bottom: 32px;
+}
+
+#join .joinFrm form label > span {
+    float: left;
+    width: 232px;
+    height: 50px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    /*background-color: antiquewhite; */
+}
+
+#join .joinFrm form label > span > span {
+    color: red;
+    font-size: 14px;
+    vertical-align: top;
+    padding-left: 3px;
+}
+
+#join .joinFrm form label > input {
+    float: left;
+    width: 630px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+#join .joinFrm form button.overlap {
+    background-color: #67912C;
+    color: #fff;
+    letter-spacing: -3px;
+    font-size: 20px;
+    border: 0;
+}
+
+#join .joinFrm form button.number {
+    color: #ccc;
+    letter-spacing: -3px;
+    font-size: 20px;
+    border-color: #ccc;
+}
+
+#join .joinFrm form button {
+    width: 164px;
+    height: 50px;
+    box-sizing: border-box;
+    float: right;
+    border-radius: 4px;
+    border: 1px solid #45734F;
+    font-family: 's-core_dream5_medium', sans-serif;
+}
+
+#join .joinFrm form .address,
+#join .joinFrm form .gender,
+#join .joinFrm form .etcCheck {
+    float: left;
+}
+
+#join .joinFrm form .address p:last-of-type {
+    float: left;
+    position: relative;
+    left: 232px;
+    padding-top: 16px;
+    font-family: 's-core_dream4_regular', sans-serif;
+    margin-bottom: 32px;
+}
+
+#join .joinFrm form .address p:first-of-type,
+#join .joinFrm form .gender p {
+    float: left;
+    width: 232px;
+    height: 50px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    /*background-color: antiquewhite;*/
+    text-align: left;
+}
+
+#join .joinFrm form .address p > span {
+    color: red;
+    font-size: 14px;
+    vertical-align: top;
+    padding-left: 3px;
+}
+
+#join .joinFrm form .address > button {
+    float: left;
+    width: 630px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    border: 4px solid #67912C;
+}
+
+#join .joinFrm form .address > button > img {
+    width: 24px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#join .joinFrm form input[type="text"],
+#join .joinFrm form input[type="password"] {
+    font-family: 's-core_dream5_medium', sans-serif;
+}
+
+#join .joinFrm form input::placeholder {
+    color: #ccc;
+    font-family: 's-core_dream5_medium', sans-serif;
+    padding-left: 10px;
+}
+
+#join .joinFrm form .gender > label {
+    float: left;
+    width: 128px;
+    margin-right: 130px;
+}
+
+#join .joinFrm form .gender > label > span {
+    /*background-color: red;*/
+    text-align: center;
+    float: left;
+    display: block;
+    margin-top: 8px;
+    padding: 5px 10px;
+}
+
+#join .joinFrm form .gender > label > input[type="radio"] {
+    width: 28px;
+    vertical-align: middle;
+}
+
+#join .joinFrm form .etcCheck > p {
+    float: left;
+    width: 232px;
+    text-align: left;
+}
+
+#join .joinFrm form .etcCheck > label {
+    float: left;
+}
+
+#join .joinFrm form .etcCheck > label:nth-of-type(1) {
+    width: 150px;
+}
+
+#join .joinFrm form .etcCheck > label:nth-of-type(2) {
+    width: 630px;
+    float: left;
+}
+
+#join .joinFrm form .etcCheck > label:nth-of-type(2) > input {
+    width: 480px;
+}
+
+#join .joinFrm form .etcCheck > label:nth-of-type(3) {
+    width: 150px;
+    clear: both;
+    position: relative;
+    left: 232px;
+}
+
+#join .joinFrm form .etcCheck > label:nth-of-type(4) {
+    width: 630px;
+    float: left;
+    position: relative;
+    left: 232px;
+}
+
+#join .joinFrm form .etcCheck > label:nth-of-type(4) > input {
+    width: 480px;
+}
+
+#join .joinFrm form .etcCheck > label > input {}
+
+#join .joinFrm form .etcCheck > label > input[type="checkbox"] {
+    width: 30px;
+    float: left;
+}
+
+#join .joinFrm form .etcCheck label > span {
+    float: left;
+    margin-top: 8px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+hr {
+    clear: both;
+}
+
+#join .joinFrm form:last-child {
+    margin-top: 38px;
+}
+
+#join .joinFrm form:last-child label {
+    float: left;
+    margin-left: 230px;
+}
+
+#join .joinFrm form:last-child input {
+    float: left;
+}
+
+#join .joinFrm form:last-child > p {
+    text-align: left;
+}
+
+#join .joinFrm form:last-child > p span {
+    color: red;
+    font-size: 14px;
+    vertical-align: top;
+    padding-left: 3px;
+}
+
+#join .joinFrm form:last-child input[type="checkbox"] {
+    width: 30px;
+    float: left;
+    display: block;
+}
+
+#join .joinFrm form:last-child label span {
+    float: left;
+    margin-top: 13px;
+    display: block;
+    margin-left: 10px;
+}
+
+#join .joinFrm form:last-child button {
+    float: left;
+    width: 630px;
+    margin-left: 230px;
+    background-color: #45734F;
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+}
+/* footer */
+footer{
+    clear: both; 
+    border-top: 2px solid #45734F;
+    padding-left: 200px; margin-top: 50px;}
+footer>h4 {float: left; width: 200px; margin-top: 50px;}
+footer>p {
+    margin:50px 30px; 
+    display: inline-block; line-height: 2em;
+    text-align: left;
+}
